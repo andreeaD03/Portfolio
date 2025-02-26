@@ -1,0 +1,19 @@
+.search-bar-container {
+  background-color: #eee;
+  height: 80px;
+  width: 500px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+#input {
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}

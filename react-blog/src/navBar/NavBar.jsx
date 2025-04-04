@@ -9,7 +9,6 @@ const NavBar = () => {
         <li>About</li>
         <li>Posts</li>
       </ul>
-      <NavBar />
     </div>
   );
 };

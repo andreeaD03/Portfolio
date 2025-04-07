@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
@@ -9,6 +10,7 @@ const NavBar = () => {
         <li>About</li>
         <li>Posts</li>
       </ul>
+      <SearchBar />
     </div>
   );
 };

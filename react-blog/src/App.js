@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "./navBar/NavBar";
-import SearchBar from "./navBar/SearchBar";
 
 function App() {
   return (

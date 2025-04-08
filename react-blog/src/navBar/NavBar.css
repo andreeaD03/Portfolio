@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 30px;
 }
 
@@ -9,4 +10,18 @@ ul {
   gap: 15px;
   list-style: none;
   cursor: pointer;
+}
+
+h1 {
+  color: rgb(134, 134, 212);
+}
+.smallDescription {
+  text-align: center;
+  align-items: center;
+}
+
+#heartIcon {
+  padding-right: 10px;
+  align-items: center;
+  color: rgb(134, 134, 212);
 }

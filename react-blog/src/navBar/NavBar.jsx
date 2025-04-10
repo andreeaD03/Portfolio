@@ -21,6 +21,17 @@ const NavBar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+
+      <div className="smallDescription">
+        <h1>W Blog</h1>
+
+        <p>
+          {" "}
+          <LuMessageCircleHeart id="heartIcon" />
+          Here with you for every question
+        </p>
+      </div>
+      <SearchBar />
     </div>
   );
 };

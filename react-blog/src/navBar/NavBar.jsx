@@ -11,16 +11,7 @@ const NavBar = () => {
         <li>About</li>
         <li>Posts</li>
       </ul>
-      <div className="smallDescription">
-        <h1>W Blog</h1>
-
-        <p>
-          {" "}
-          <LuMessageCircleHeart id="heartIcon" />
-          Here with you for every question
-        </p>
-      </div>
-      <SearchBar />
+      <NavBar />
     </div>
   );
 };

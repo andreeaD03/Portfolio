@@ -1,0 +1,22 @@
+h1,
+h2 {
+  color: #333;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  margin: 10px 0;
+}
+
+.postItem a {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+.postItem a:hover {
+  text-decoration: underline;
+}

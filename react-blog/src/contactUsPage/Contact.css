@@ -1,0 +1,22 @@
+.contactUsInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUsInfo li {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  color: rgb(134, 134, 212);
+}
+
+.telephoneIcon,
+.emailIcon,
+.pinIcon {
+  color: rgb(134, 134, 212);
+}
+.emailIcon {
+  margin-right: 16px;
+}

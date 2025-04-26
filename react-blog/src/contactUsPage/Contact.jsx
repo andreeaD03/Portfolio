@@ -17,14 +17,23 @@ const Contact = () => {
       <div className="listsWrapper">
         <ul className="contactUsInfo">
           <li>
-            <BsFillTelephoneFill className="icon" /> +40789363772{" "}
+            <span>
+              <BsFillTelephoneFill className="telephoneIcon" />
+            </span>
+            +40767107307
           </li>
           <li>
-            <MdEmail className="icon" />
-            info@wblog.com
+            <span>
+              <MdEmail className="emailIcon" />
+              <a href="mailto:andreeadan0302@gmail.com">
+                andreeadan0302@gmail.com
+              </a>
+            </span>
           </li>
           <li>
-            <FaLocationPin className="icon" />
+            <span>
+              <FaLocationPin className="pinIcon" />
+            </span>
             Romania, Timisoara, str Nicolae Iliesu nr 13, 300730
           </li>
         </ul>

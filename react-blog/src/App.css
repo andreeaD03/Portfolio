@@ -6,3 +6,7 @@ body {
 .footer {
   position: fixed;
 }
+
+h1 {
+  color: rgb(134, 134, 212);
+}

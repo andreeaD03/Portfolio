@@ -10,8 +10,7 @@ const Contact = () => {
       <div>
         <h1>Contact Us </h1>
         <p>
-          Feel free to use this form or drop us an email. Old-fashion calls
-          works too.
+          Feel free to contact us with whatever you need. We are here to help!
         </p>
       </div>
       <div className="listsWrapper">
